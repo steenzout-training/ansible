@@ -30,11 +30,12 @@ _The versions used when the materials were created have been added._
 ## Table of contents
 
 0. [vagrant][training.vagrant]
-1. [ansible-playbook][training.playbook]
-2. [ansible-vault][training.vault]
-3. [tox][training.tox]
-5. [ansiblebit][training.ansiblebit]
-4. [ansible-toolkit][training.ansible-toolkit]
+0. [ansible-playbook][training.playbook]
+0. [modules][training.modules]
+0. [ansible-vault][training.vault]
+0. [tox][training.tox]
+0. [ansiblebit][training.ansiblebit]
+0. [ansible-toolkit][training.ansible-toolkit]
 
 
 [ansible]:      https://www.ansible.com/                            "Ansible"
@@ -50,6 +51,7 @@ _The versions used when the materials were created have been added._
 
 [training.ansiblebit]:      https://github.com/steenzout-training/ansible/tree/master/ansiblebit        "ansiblebit"
 [training.ansible-toolkit]: https://github.com/steenzout-training/ansible/tree/master/ansible-toolkit   "ansible-toolkit"
+[training.modules]:         https://github.com/steenzout-training/ansible/tree/master/modules           "modules"
 [training.playbook]:        https://github.com/steenzout-training/ansible/tree/master/ansible-playbook  "playbook"
 [training.tox]:             https://github.com/steenzout-training/ansible/tree/master/tox               "tox"
 [training.vagrant]:         https://github.com/steenzout-training/ansible/tree/master/vagrant           "vagrant"
