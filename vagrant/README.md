@@ -82,7 +82,6 @@ For example:
 
     Host training.*
         HostName 127.0.0.1
-        IdentityFile "~/.ssh/vagrant_private_key"
         IdentitiesOnly yes
         LogLevel FATAL
         PasswordAuthentication no
@@ -91,6 +90,9 @@ For example:
         User vagrant
         UserKnownHostsFile /dev/null
 
+Meaning you could login using something like:
+
+    ssh -i ..some_path../ansible/vagrant/.vagrant/machines/training.ansible/virtualbox/private_key training.ansible
 
 ### vagrant destroy
 
