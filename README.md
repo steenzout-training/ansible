@@ -29,8 +29,7 @@ _The versions used when the materials were created have been added._
 
 ## Table of contents
 
-0. vagrant
-1. ssh
+0. [vagrant][training.vagrant]
 1. ansible-playbook
 2. ansible-vault
 3. tox
@@ -48,3 +47,5 @@ _The versions used when the materials were created have been added._
 [vagrant]:      https://www.vagrantup.com/                          "Vagrant"
 [virtualbox]:   https://www.virtualbox.org/                         "VirtualBox"
 [virtualenv]:   https://virtualenv.pypa.io/en/latest/               "virtualenv"
+
+[training.vagrant]: https://github.com/steenzout-training/ansible/tree/master/vagrant "vagrant"
