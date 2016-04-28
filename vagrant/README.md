@@ -22,17 +22,19 @@ which we'll use to get you acquainted with [vagrant][vagrant].
 More information on `Vagrantfile` can be found [here](https://www.vagrantup.com/docs/vagrantfile/).
 
 
-## vagrant up
+## Commands
 
-This will download the image and start the virtual machine.
+### vagrant up
 
-
-## vagrant status
-
-Check the state of each virtual machine defined in the `Vagrantfile`.
+This command will download the image and start the virtual machine.
 
 
-## vagrant ssh
+### vagrant status
+
+This command presents the state of each virtual machine defined in the `Vagrantfile`.
+
+
+### vagrant ssh
 
 This command will enable to login to the virtual machine.
 
@@ -47,7 +49,7 @@ with the settings from the `Vagrantfile`.
 The same result will happen if you use `vagrant ssh training.ansible`.
 
 
-## vagrant ssh-config
+### vagrant ssh-config
 
 Use this command to see how you can setup your `~/.ssh/config` file
 to login to this virtual machine using ssh.
@@ -90,9 +92,9 @@ For example:
         UserKnownHostsFile /dev/null
 
 
-## vagrant destroy
+### vagrant destroy
 
-Destroy the virtual machine.
+Destroys the virtual machine.
 
 
 [vagrant]:      https://www.vagrantup.com/                          "Vagrant"
