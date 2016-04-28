@@ -89,8 +89,8 @@ use an Ansible playbook to bring it back up and
 add your ssh public key to the `~vagrant/.ssh/authorized_keys` file.
 
 You can use the [add_host][module_add_host] module,
-the [lineinfile][module_lineinfile] and
-`delegate_to` on another task.
+the [lineinfile][module_lineinfile] module and
+`delegate_to` on that task.
 
 
 ## Advanced Exercise: delegation with play variation
