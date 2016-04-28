@@ -1,16 +1,45 @@
 ---
 # file: base.yml
 #
+# Setup servers with the minimum package requirements.
 #
 
 - name: base setup
   hosts: all
   become_method: sudo
   become_user: root
+  vars:
+    base_users:
+      - vagrant
 
   tasks:
+    - debug:
+        var=mygroup
+      tags: debug
+
     - name: install git
       apt:
         name=git
         state=present
       become: yes
+
+    - name: ensure ~/.config/git directory exists
+      file:
+        path="~{{ item }}/.config/git"
+        state=directory
+        recurse=yes
+        owner="{{ item }}"
+        group="{{ item }}"
+        mode=0755
+      become: yes
+      with_items: "{{ base_users }}"
+
+    - name: set ignore rules for vagrant user
+      copy:
+        src=files/home/user/.config/git/ignore.vim
+        dest="~{{ item }}/.config/git/ignore"
+        owner="{{ item }}"
+        group="{{ item }}"
+        mode=0644
+      become: yes
+      with_items: "{{ base_users }}"

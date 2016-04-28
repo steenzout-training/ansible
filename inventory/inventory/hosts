@@ -1,0 +1,21 @@
+[all:children]
+groupA
+groupB
+
+[groupA]
+127.0.0.1   ansible_port=2222   ansible_user=vagrant    ansible_ssh_private_key_file=.vagrant/machines/training.ansible.inventory/virtualbox/private_key
+
+[groupA:vars]
+env=groupA
+
+[groupB]
+127.0.0.1   ansible_port=2222   ansible_user=vagrant    ansible_ssh_private_key_file=.vagrant/machines/training.ansible.inventory/virtualbox/private_key
+
+[groupB:vars]
+mygroup=groupB
+
+[groupC]
+127.0.0.1   ansible_port=2222   ansible_user=vagrant    ansible_ssh_private_key_file=.vagrant/machines/training.ansible.inventory/virtualbox/private_key
+
+[groupC:vars]
+mygroup=groupC
