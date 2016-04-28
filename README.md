@@ -47,4 +47,4 @@ _The versions used when the materials were created have been added._
 [tox]:          https://tox.readthedocs.org/                        "tox"
 [vagrant]:      https://www.vagrantup.com/                          "Vagrant"
 [virtualbox]:   https://www.virtualbox.org/                         "VirtualBox"
-[virtualenv]:   
+[virtualenv]:   https://virtualenv.pypa.io/en/latest/               "virtualenv"
