@@ -1,7 +1,11 @@
-# vagrant
+# Vagrant
 
 This part of the training will do a quick overview of
-the [vagrant][vagrant] commands you will be using.
+the [Vagrant][vagrant] commands you will be using.
+
+[Vagrant][vagrant] provides an [Ansible][ansible] provisioner but
+the goal of the current exercise is for you to get acquainted with
+the [Vagrant][vagrant] commands.
 
 
 ## Vagrantfile
@@ -99,4 +103,11 @@ Meaning you could login using something like:
 Destroys the virtual machine.
 
 
-[vagrant]:      https://www.vagrantup.com/                          "Vagrant"
+## Links
+
+- [Using Vagrant and Ansible][ansible_vagrant]
+- [Vagrant][vagrant]
+
+
+[ansible_vagrant]:  http://docs.ansible.com/ansible/guide_vagrant.html  "Using Vagrant and Ansible"
+[vagrant]:          https://www.vagrantup.com/                          "Vagrant"
