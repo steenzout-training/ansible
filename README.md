@@ -30,11 +30,11 @@ _The versions used when the materials were created have been added._
 ## Table of contents
 
 0. [vagrant][training.vagrant]
-1. ansible-playbook
-2. ansible-vault
-3. tox
-4. ansible-toolkit
-5. ansiblebit/primogen
+1. [ansible-playbook][training.playbook]
+2. [ansible-vault][training.vault]
+3. [tox][training.tox]
+5. [ansiblebit][training.ansiblebit]
+4. [ansible-toolkit][training.ansible-toolkit]
 
 
 [ansible]:      https://www.ansible.com/                            "Ansible"
@@ -48,4 +48,5 @@ _The versions used when the materials were created have been added._
 [virtualbox]:   https://www.virtualbox.org/                         "VirtualBox"
 [virtualenv]:   https://virtualenv.pypa.io/en/latest/               "virtualenv"
 
-[training.vagrant]: https://github.com/steenzout-training/ansible/tree/master/vagrant "vagrant"
+[training.playbook]:    https://github.com/steenzout-training/ansible/tree/master/ansible-playbook  "playbook"
+[training.vagrant]:     https://github.com/steenzout-training/ansible/tree/master/vagrant           "vagrant"
