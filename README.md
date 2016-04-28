@@ -48,7 +48,9 @@ _The versions used when the materials were created have been added._
 [virtualbox]:   https://www.virtualbox.org/                         "VirtualBox"
 [virtualenv]:   https://virtualenv.pypa.io/en/latest/               "virtualenv"
 
-[training.playbook]:    https://github.com/steenzout-training/ansible/tree/master/ansible-playbook  "playbook"
-[training.tox]:         https://github.com/steenzout-training/ansible/tree/master/tox               "tox"
-[training.vagrant]:     https://github.com/steenzout-training/ansible/tree/master/vagrant           "vagrant"
-[training.vault]:       https://github.com/steenzout-training/ansible/tree/master/vault             "vault"
+[training.ansiblebit]:      https://github.com/steenzout-training/ansible/tree/master/ansiblebit        "ansiblebit"
+[training.ansible-toolkit]: https://github.com/steenzout-training/ansible/tree/master/ansible-toolkit   "ansible-toolkit"
+[training.playbook]:        https://github.com/steenzout-training/ansible/tree/master/ansible-playbook  "playbook"
+[training.tox]:             https://github.com/steenzout-training/ansible/tree/master/tox               "tox"
+[training.vagrant]:         https://github.com/steenzout-training/ansible/tree/master/vagrant           "vagrant"
+[training.vault]:           https://github.com/steenzout-training/ansible/tree/master/vault             "vault"
