@@ -49,4 +49,6 @@ _The versions used when the materials were created have been added._
 [virtualenv]:   https://virtualenv.pypa.io/en/latest/               "virtualenv"
 
 [training.playbook]:    https://github.com/steenzout-training/ansible/tree/master/ansible-playbook  "playbook"
+[training.tox]:         https://github.com/steenzout-training/ansible/tree/master/tox               "tox"
 [training.vagrant]:     https://github.com/steenzout-training/ansible/tree/master/vagrant           "vagrant"
+[training.vault]:       https://github.com/steenzout-training/ansible/tree/master/vault             "vault"
