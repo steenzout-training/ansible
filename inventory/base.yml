@@ -1,0 +1,16 @@
+---
+# file: base.yml
+#
+#
+
+- name: base setup
+  hosts: all
+  become_method: sudo
+  become_user: root
+
+  tasks:
+    - name: install git
+      apt:
+        name=git
+        state=present
+      become: yes

@@ -1,0 +1,5 @@
+---
+# file: myrole/defaults/main.yml
+#
+
+myrole_dir_install: /tmp

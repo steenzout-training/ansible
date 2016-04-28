@@ -1,0 +1,22 @@
+---
+
+- name: play #1 for ansible-playbook exercise
+  hosts: localhost
+  connection: local
+
+  pre_tasks:
+    - name: debug variable
+      debug:
+        var=extra
+      when: extra is defined
+
+  roles:
+    - role: myrole
+
+  tasks:
+    - debug:
+        msg=Nothing to do...
+
+  post_tasks:
+    - debug:
+        msg=Nothing to do...

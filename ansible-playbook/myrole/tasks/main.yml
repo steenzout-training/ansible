@@ -1,0 +1,13 @@
+---
+# file: myrole/tasks/main.yml
+#
+# Creates a pointless file.
+#
+
+
+- name: touch a file
+  file:
+    path="{{ myrole_dir_install }}/steenzout-training.ansible.ansible-playbook"
+    owner="{{ ansible_env.USER }}"
+    mode=0755
+    state=directory
