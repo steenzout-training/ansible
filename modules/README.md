@@ -1,6 +1,6 @@
 # Modules
 
-Now with less of an inital setup,
+Now without the inital setup,
 try and create the inventory and a playbook which will
 use the following modules:
 - [template module][module_template]
