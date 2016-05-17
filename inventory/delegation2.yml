@@ -1,0 +1,45 @@
+---
+# file: delegation2.yml
+#
+# Provision new vagrant box with my public key on vagrant user.
+#
+
+- name: provision
+  hosts: localhost
+  connection: local
+
+  tasks:
+    - command: vagrant up
+      register: task_vagrant_up
+
+    - debug:
+        var=task_vagrant_up
+
+    - set_fact:
+        new_host: 127.0.0.1
+        new_port: 2222
+
+  post_tasks:
+    - add_host:
+        name='training.new_host'
+        groups=my_new_host
+        ansible_ssh_host="{{ new_host }}"
+        ansible_ssh_user=vagrant
+        ansible_ssh_port="{{ new_port }}"
+        ansible_ssh_private_key_file='.vagrant/machines/training.ansible.inventory/virtualbox/private_key'
+
+- name: print
+  hosts: my_new_host
+
+  tasks:
+    - debug:
+        var=ansible_ssh_host
+
+    - debug:
+        var=ansible_ssh_user
+
+    - command: lsb_release -a
+      register: task_lsb_release
+
+    - debug:
+        var=task_lsb_release
