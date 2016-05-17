@@ -9,14 +9,18 @@
       debug:
         var=extra
       when: extra is defined
+      tags: debug
 
   roles:
     - role: myrole
+      tags: myrole
 
   tasks:
     - debug:
-        msg=Nothing to do...
+        msg='Nothing to do...'
+      tags: debug
 
   post_tasks:
     - debug:
-        msg=Nothing to do...
+        msg='Nothing to do...'
+      tags: debug
